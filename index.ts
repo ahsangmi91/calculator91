@@ -1,7 +1,10 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 import figlet from "figlet";
 import chalk from "chalk";
 import { sum, division, multiply, subtract } from "./operation.js";
+console.log("testing");
 
 const WELCOME = async () => {
   console.log(figlet.textSync("Calculator"));
